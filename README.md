@@ -1,15 +1,13 @@
-Bioinformatics Revision
-=======================
+% Bioinformatics Revision
+% Dave Wilcox
 
-Intro
------
+# Intro
 
 This repo is for the dual purpose of revising Bioinformatics (for exams) and
 learning markdown. I will be using markdown to make slides/pdfs of my notes
 and hopefully it'll turn out to be useful.
 
-Contents
---------
+# Contents
 
 The bioinformatics course will be broken down into two large sections:
 
@@ -24,4 +22,10 @@ Classes of Algorithms will be further broken down:
         - Problem
         - Solution
         - Pseudocode
+
+# Files and Folders
+
+The slides algorithms.pdc and biology.pdc and broad overviews of their 
+respective topics. For greater detail on their sub topics see their 
+respective slides in the folders labeled algorithms/ and biology/.
 

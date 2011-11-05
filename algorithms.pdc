@@ -1,0 +1,135 @@
+% Classes of Algorithms
+
+# Contents
+
+* Exhaustive Search
+* Greedy 
+* Dynamic Programming
+* Divide and Conquer
+* Graph
+* Combinatorial
+* Clustering and Trees
+* Hidden Markov Models
+* Randomized
+
+# Exhaustive Search
+
+Exhaustive Search algorithms involve searching over the entire solution 
+space and returning the optimal answer. Unless branch and bound techniques
+can be found they are typically inefficient.
+
+Specific Exhaustive Search algorithms include:
+
+* The Partial Digest Problem
+* The Motif Finding Problem
+
+# Greedy Algorithms
+
+Unlike exhaustive search, greedy algorithms will take the first best 
+solution over the global best solution. The means they are fast but not 
+always optimal.
+
+Specific Greedy algorithms include:
+
+* Reversal Distance Problem
+* Sorting by Reversals
+* Breakpoint Reversal Sort
+* Greedy Motif Search
+
+On the topic of Greedy algorithms it is good to cover the notion of an 
+approximation ratio, also.
+
+# Dynamic Programming
+
+Dynamic Programming is a search that finds optimal answers (sometimes w.r.t.
+a heuristic) on the global scale by defining a recurance relation and
+computing the result. Although it is conceptually simple, if it is not 
+coupled with memoization then it will also involve excessively wasteful 
+computations.
+
+# Specific Dynamic Programming algorithms include:
+
+* The Change Problem (Revisited)
+* The Manhatten Tourist Problem
+* Longest Path in a DAG
+* Longest Common Subsequences
+* Global Sequence Alignment
+* Local Sequence Alignment
+* Multiple Sequence Alignment
+* Exon Chaining Problem
+* Spliced Alignment Problem
+
+# Divide and Conquer
+
+Divide and Conquer algorithms require:
+
+1. A way to break the problem into subproblems 
+2. A way to solve a base case (small enough subproblem)
+3. A way to merge the solutions
+
+They require recursive thinking.
+
+Specific Divide and Conquer algorithms include:
+
+* Merge sort
+* Space-Efficient Sequence Alignment
+* Block Alignment and the Four-Russian Speedup
+
+# Graph Algorithms
+
+Many problems can be modeled as graph problems. Thus graph problems have 
+become a universal framework for problem solving.
+
+Specific Graph Problems include:
+
+* Eulerian Cycle Problem
+* Hamiltonian Cycle Problem
+* Shortest Path Problem
+* Shortest Superstring Problem
+* Sequencing by Hybridization Problem
+* Peptide Sequencing Problem
+* Protein Identification Problem
+* Spectral Alignment Problem
+
+# Combinatorial Pattern Matching
+
+Specific Combinatorial Pattern Matching problems include:
+
+* Duplicate Removal Problem
+* Pattern Matching Problem
+* Multiple Pattern Matching Problem
+* Approximate Pattern Matching Problem
+* Query Matching Problem
+
+# Clustering and Trees
+
+The clustering of data sets can provide valuable insights into the nature of
+the data.
+
+Specific Clustering and Trees algorithms include:
+
+* Heirachical Clustering
+* k-Means Clustering
+* Corrupted Cliques Problem
+* PCC (Parallel Clustering with Cores)
+* CAST (Cluster Affinity Search Technique)
+* Distance Based Phylogeny Problem
+* Reconstructing Trees from Additive Matrices
+* Least-Squares Distance-Based Phylogeny Problem
+* UPGMA (Unweighted Pair Group Method with Arithmetic Mean)
+* Parsimony Problem
+
+# Hidden Markov Models
+
+Hidden Markov Models are a probabilistic based approach to solving problems.
+
+# Randomized Algorithms
+
+By choosing between Monte Carlo and Las Vegas algorithms a trade off between
+accuracy and computation time can be achieved.
+
+Specific algorithms include:
+
+* Randomized Quicksort
+* Gibbs Sampling
+* Random Projections
